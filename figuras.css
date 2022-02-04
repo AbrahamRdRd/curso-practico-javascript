@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300;600&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Biryani', sans-serif;
+}
+
+h2, form, nav{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 28px;
+}
+
+button{
+    margin: 6px 0;
+    padding: 16px 10px; 
+    cursor: pointer;
+    color: #f6fcfc;
+
+    font-weight: bold;
+    font-size: 16px;
+    
+    border: none;
+    border-radius: 10px;
+    background-color: #ADE8F4;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input{
+    width: auto;
+    height: 34px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.container_cuadrado,
+.container_triangulo, 
+.container_circulo{
+    width: 300px;
+    height: 100%;
+    padding: 15px;
+
+    border: 2px solid  #00B4D8;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align:  center;
+    margin-bottom: 10px;
+}
+
+.title{
+    padding: 12px 0;
+    background-color: #00B4D8;
+    color: #f6fcfc;
+    border-radius: 5px;
+}
+
+form{
+    height: 100%;
+    margin-top: 36px;
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+form div{
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+/*Elimina las flechas del input*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { 
+    -moz-appearance:textfield; 
+}
+
+.inputTriangulo{
+    margin-left: 8px;
+}
