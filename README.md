@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # curso-practico-javascript
 My first course of JS in Platzi.
 
